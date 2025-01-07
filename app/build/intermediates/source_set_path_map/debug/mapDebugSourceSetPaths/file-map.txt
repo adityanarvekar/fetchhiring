@@ -1,0 +1,47 @@
+com.example.fetchevaluation.app-activity-ktx-1.8.0-0 C:\Users\aditya\.gradle\caches\transforms-4\0dc961333639d124587d4c86e31b264d\transformed\activity-ktx-1.8.0\res
+com.example.fetchevaluation.app-activity-compose-1.8.0-1 C:\Users\aditya\.gradle\caches\transforms-4\199784f9ee034cab5bf46521b02de028\transformed\activity-compose-1.8.0\res
+com.example.fetchevaluation.app-savedstate-ktx-1.2.1-2 C:\Users\aditya\.gradle\caches\transforms-4\1e22dacf13d5f06e388be1294fd30ed4\transformed\savedstate-ktx-1.2.1\res
+com.example.fetchevaluation.app-ui-unit-release-3 C:\Users\aditya\.gradle\caches\transforms-4\32174045c0d7551d0e13e84d50fdb42a\transformed\ui-unit-release\res
+com.example.fetchevaluation.app-emoji2-1.3.0-4 C:\Users\aditya\.gradle\caches\transforms-4\327d40be67ecb40bc0931605ee5814da\transformed\emoji2-1.3.0\res
+com.example.fetchevaluation.app-lifecycle-viewmodel-compose-release-5 C:\Users\aditya\.gradle\caches\transforms-4\330049698798f18d3630f7c6586a6c29\transformed\lifecycle-viewmodel-compose-release\res
+com.example.fetchevaluation.app-material-ripple-release-6 C:\Users\aditya\.gradle\caches\transforms-4\346e96bb78bef483578b77c4a14797cf\transformed\material-ripple-release\res
+com.example.fetchevaluation.app-customview-poolingcontainer-1.0.0-7 C:\Users\aditya\.gradle\caches\transforms-4\3644153aedc14d147cd2bd30d018048b\transformed\customview-poolingcontainer-1.0.0\res
+com.example.fetchevaluation.app-runtime-saveable-release-8 C:\Users\aditya\.gradle\caches\transforms-4\3fc79cd457e340dbd7768217cfe95254\transformed\runtime-saveable-release\res
+com.example.fetchevaluation.app-savedstate-1.2.1-9 C:\Users\aditya\.gradle\caches\transforms-4\3fcf8d73f1f9898683f8d114fe2f2fb0\transformed\savedstate-1.2.1\res
+com.example.fetchevaluation.app-ui-test-manifest-1.6.0-10 C:\Users\aditya\.gradle\caches\transforms-4\43f328fcfb1c6052a144bf7ac4bef8ed\transformed\ui-test-manifest-1.6.0\res
+com.example.fetchevaluation.app-material-icons-core-release-11 C:\Users\aditya\.gradle\caches\transforms-4\4f1b6ed95f7be440f3a92cd645d04c32\transformed\material-icons-core-release\res
+com.example.fetchevaluation.app-startup-runtime-1.1.1-12 C:\Users\aditya\.gradle\caches\transforms-4\52eb224b62e90bde8662e7d6b9c3943b\transformed\startup-runtime-1.1.1\res
+com.example.fetchevaluation.app-material3-1.1.1-13 C:\Users\aditya\.gradle\caches\transforms-4\5a27e1bbc83976453d140525ccc70c4d\transformed\material3-1.1.1\res
+com.example.fetchevaluation.app-lifecycle-viewmodel-savedstate-2.8.7-14 C:\Users\aditya\.gradle\caches\transforms-4\6d1c54bb30e9422eed2abff3fab9fefd\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.example.fetchevaluation.app-core-1.13.1-15 C:\Users\aditya\.gradle\caches\transforms-4\70bc9df8dd5d26161e1be2ae3df1685f\transformed\core-1.13.1\res
+com.example.fetchevaluation.app-core-runtime-2.2.0-16 C:\Users\aditya\.gradle\caches\transforms-4\7105c81836c16d580d6ea8a2868a3f35\transformed\core-runtime-2.2.0\res
+com.example.fetchevaluation.app-ui-util-release-17 C:\Users\aditya\.gradle\caches\transforms-4\7286f0ce2130abf414121428713add5c\transformed\ui-util-release\res
+com.example.fetchevaluation.app-material-release-18 C:\Users\aditya\.gradle\caches\transforms-4\7296a3e45bdd18baf437c17ff5297e5f\transformed\material-release\res
+com.example.fetchevaluation.app-ui-tooling-preview-release-19 C:\Users\aditya\.gradle\caches\transforms-4\746b9cfa90d6fd5ccf8026068d23efdc\transformed\ui-tooling-preview-release\res
+com.example.fetchevaluation.app-lifecycle-viewmodel-ktx-2.8.7-20 C:\Users\aditya\.gradle\caches\transforms-4\77bb016d664466ccc8301c5b98c9cf25\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.example.fetchevaluation.app-activity-1.8.0-21 C:\Users\aditya\.gradle\caches\transforms-4\7e7c8d40724f5e67cdbd14a7d136a0d4\transformed\activity-1.8.0\res
+com.example.fetchevaluation.app-core-ktx-1.13.1-22 C:\Users\aditya\.gradle\caches\transforms-4\83c77014446b11f0f14ac8ae49154d18\transformed\core-ktx-1.13.1\res
+com.example.fetchevaluation.app-ui-tooling-release-23 C:\Users\aditya\.gradle\caches\transforms-4\8d56d7b562d8b1634ecfc9870e1dc704\transformed\ui-tooling-release\res
+com.example.fetchevaluation.app-ui-graphics-release-24 C:\Users\aditya\.gradle\caches\transforms-4\8eb87ed98e1e792a95815883bf333ada\transformed\ui-graphics-release\res
+com.example.fetchevaluation.app-ui-geometry-release-25 C:\Users\aditya\.gradle\caches\transforms-4\90d5a727bb7b128b4f29aa8122e2053a\transformed\ui-geometry-release\res
+com.example.fetchevaluation.app-profileinstaller-1.3.1-26 C:\Users\aditya\.gradle\caches\transforms-4\9156e00d8baeb971cc382d858e5a0f37\transformed\profileinstaller-1.3.1\res
+com.example.fetchevaluation.app-ui-release-27 C:\Users\aditya\.gradle\caches\transforms-4\a3c9820a76f2a6507dc7cd79479146de\transformed\ui-release\res
+com.example.fetchevaluation.app-animation-core-release-28 C:\Users\aditya\.gradle\caches\transforms-4\a5623957aa5960f75b4821bb42c337f4\transformed\animation-core-release\res
+com.example.fetchevaluation.app-runtime-release-29 C:\Users\aditya\.gradle\caches\transforms-4\b0fecf5bc63b9b52d389b08e7a4e8af9\transformed\runtime-release\res
+com.example.fetchevaluation.app-foundation-release-30 C:\Users\aditya\.gradle\caches\transforms-4\b95056f7b6b641db89d7a125da6bba03\transformed\foundation-release\res
+com.example.fetchevaluation.app-ui-tooling-data-release-31 C:\Users\aditya\.gradle\caches\transforms-4\bee4c75b845541fa9cf35576e6d3ec86\transformed\ui-tooling-data-release\res
+com.example.fetchevaluation.app-lifecycle-runtime-release-32 C:\Users\aditya\.gradle\caches\transforms-4\c6e1ccc45533260403900aa90a6b9a9e\transformed\lifecycle-runtime-release\res
+com.example.fetchevaluation.app-lifecycle-viewmodel-release-33 C:\Users\aditya\.gradle\caches\transforms-4\ca1c05e91af0eee5d060151f211c9714\transformed\lifecycle-viewmodel-release\res
+com.example.fetchevaluation.app-ui-text-release-34 C:\Users\aditya\.gradle\caches\transforms-4\e5cd6144cc03a3ce850e234cec1827d6\transformed\ui-text-release\res
+com.example.fetchevaluation.app-lifecycle-runtime-ktx-release-35 C:\Users\aditya\.gradle\caches\transforms-4\e73de9425e8ca1c4042c42480710f5e4\transformed\lifecycle-runtime-ktx-release\res
+com.example.fetchevaluation.app-lifecycle-livedata-core-2.8.7-36 C:\Users\aditya\.gradle\caches\transforms-4\e9b142dc8c07a1d486b51d3cebd8a24d\transformed\lifecycle-livedata-core-2.8.7\res
+com.example.fetchevaluation.app-animation-release-37 C:\Users\aditya\.gradle\caches\transforms-4\e9ff269a3a10fc0dadec635afc9c859a\transformed\animation-release\res
+com.example.fetchevaluation.app-annotation-experimental-1.4.0-38 C:\Users\aditya\.gradle\caches\transforms-4\f2ccb1adda180391f750216fa4e7903b\transformed\annotation-experimental-1.4.0\res
+com.example.fetchevaluation.app-lifecycle-process-2.8.7-39 C:\Users\aditya\.gradle\caches\transforms-4\fe2af55cd53f414bbf15623368e7eec4\transformed\lifecycle-process-2.8.7\res
+com.example.fetchevaluation.app-foundation-layout-release-40 C:\Users\aditya\.gradle\caches\transforms-4\feae612b94c3b2dc75f718d8f5980301\transformed\foundation-layout-release\res
+com.example.fetchevaluation.app-resValues-41 C:\Users\aditya\Android Studio Projects\FetchEvaluation\app\build\generated\res\resValues\debug
+com.example.fetchevaluation.app-packageDebugResources-42 C:\Users\aditya\Android Studio Projects\FetchEvaluation\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.fetchevaluation.app-packageDebugResources-43 C:\Users\aditya\Android Studio Projects\FetchEvaluation\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.fetchevaluation.app-debug-44 C:\Users\aditya\Android Studio Projects\FetchEvaluation\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.fetchevaluation.app-debug-45 C:\Users\aditya\Android Studio Projects\FetchEvaluation\app\src\debug\res
+com.example.fetchevaluation.app-main-46 C:\Users\aditya\Android Studio Projects\FetchEvaluation\app\src\main\res
