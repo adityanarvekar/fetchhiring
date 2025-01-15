@@ -1,5 +1,6 @@
 package com.example.fetchevaluation.ui.theme
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,6 +19,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -29,21 +33,24 @@ fun ItemListScreen(itemViewModel: ItemViewModel = viewModel()) {
     val items = itemViewModel.items.collectAsState().value
     // Filter empty or null names
     val filteredItems = items.filter { !it.name.isNullOrEmpty() }
-    // Sort the list based on listId first and then by name
-    val sortedItems = filteredItems.sortedWith(compareBy<Item> { it.listId }
-        .thenBy { it.name })
-    // Display the Items
-    MainScreenContent(sortedItems)
+
+    // Group the item list by listID first. Sort it by listId. Then sort the individual listId lists based on their ids.
+    val groupedItems = filteredItems.groupBy{it.listId}.mapValues{ entry -> entry.value.sortedBy { it.id } }.toSortedMap()
+
+    // Display the Grouped items
+    MainScreenContent(groupedItems)
 }
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun MainScreenContent(sortedItems: List<Item>) {
+fun MainScreenContent(groupedItems: Map<Int, List<Item>>) {
     Column(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
             .padding(
                 top = 50.dp,
                 bottom = 30.dp,
-                )
+            )
     ) {
         Text(
             text = "Content",
@@ -54,11 +61,28 @@ fun MainScreenContent(sortedItems: List<Item>) {
                 ),
             fontSize = 20.sp,
         )
-        ItemHeader()
-        LazyColumn {
-            items(sortedItems) { item ->
-                item.name?.takeIf { it.isNotEmpty() }?.let {
-                    ItemRow(item, it)
+        LazyColumn(
+            modifier = Modifier.padding(16.dp)
+        ) {
+            groupedItems.forEach { (listID, itemList) ->
+                //Experimental api usage for cosmetic purpose
+                stickyHeader {
+                    Column {
+                        Text(
+                            text = "List ID: $listID",
+                            style = TextStyle(fontWeight = FontWeight.Bold),
+                            modifier = Modifier
+                                .background(Color.LightGray)
+                                .fillMaxWidth(),
+                            fontSize = 16.sp,
+                        )
+                        ItemHeader()
+                    }
+                }
+                items(itemList) { item ->
+                    item.name?.takeIf { it.isNotEmpty() }?.let { name ->
+                        ItemRow(item, name)
+                    }
                 }
             }
         }
@@ -79,13 +103,6 @@ fun ItemHeader() {
                 .weight(1.1f)
                 .padding(start = 8.dp),
             textAlign = TextAlign.Start,
-            style = MaterialTheme.typography.bodyLarge,
-            color = Color.White,
-        )
-        Text(
-            text = "List ID",
-            modifier = Modifier.weight(2f),
-            textAlign = TextAlign.Center,
             style = MaterialTheme.typography.bodyLarge,
             color = Color.White,
         )
@@ -114,13 +131,6 @@ fun ItemRow(item: Item, name: String) {
                 text = "${item.id}",
                 modifier = Modifier.weight(1.1f),
                 textAlign = TextAlign.Start,
-                style = MaterialTheme.typography.bodyMedium,
-                color = Color.Black,
-            )
-            Text(
-                text = "${item.listId}",
-                modifier = Modifier.weight(2f),
-                textAlign = TextAlign.Center,
                 style = MaterialTheme.typography.bodyMedium,
                 color = Color.Black,
             )
